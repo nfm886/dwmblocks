@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/bash
 ICON="📦"
 check=$(checkupdates | wc -l)
-echo "$ICON " "$check"
+echo "$ICON" "$check"

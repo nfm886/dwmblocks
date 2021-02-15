@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/bash
 ICON=""
-freem=$(free -h | awk '/^Pamięć:/ {print $3 "/" $2}')
-echo "$ICON " "$freem"
+MEM_USAGE=$(free -h | awk '/^Pamięć:/ {print $3 "/" $2}')
+echo "$ICON" "$MEM_USAGE"
